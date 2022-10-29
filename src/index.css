@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    button {
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    body::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    html.dark body::-webkit-scrollbar-track-piece {
+        background-color: #081131;
+    }
+
+    html.light body::-webkit-scrollbar-track-piece {
+        background-color: #f2f5ff;
+    }
+
+    body::-webkit-scrollbar-thumb {
+        border-radius: 8px;
+        border: 2px solid transparent;
+        background-clip: content-box;
+        background-color: #ff75a7;
+    }
+}
