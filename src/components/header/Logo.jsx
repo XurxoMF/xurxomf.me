@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function Logo() {
     return (
-        <Link to="/" className="absolute text-3xl md:text-4xl font-extrabold text-xmf-pink">
+        <Link to="/" className="absolute text-3xl md:text-4xl font-extrabold text-xmf-pink select-none">
             XurxoMF
         </Link>
     );

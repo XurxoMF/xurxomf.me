@@ -4,12 +4,14 @@ import Footer from "../components/footer/Footer";
 
 function Root() {
     return (
-        <div className="relative w-full min-h-screen bg-xmf-light-white dark:bg-xmf-dark-blue text-black dark:text-white overflow-x-hidden">
-            <Header />
-            <main className="w-full h-[calc(100vh-4rem)]">
-                <Outlet />
-            </main>
-            <Footer />
+        <div className="w-full overflow-x-hidden bg-xmf-light-white dark:bg-xmf-dark-blue text-black dark:text-white">
+            <div className="relative m-auto w-full min-h-screen max-w-screen-xl">
+                <Header />
+                <main className="w-full min-h-[calc(100vh-4rem)] px-8">
+                    <Outlet />
+                </main>
+                <Footer />
+            </div>
         </div>
     );
 }
