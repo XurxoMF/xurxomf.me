@@ -15,7 +15,7 @@ const Carrera = () => {
                 <section className="bg-xmf-dark-blue dark:bg-opacity-5 dark:bg-xmf-light-white bg-opacity-5 border border-xmf-dark-blue dark:border-xmf-light-white dark:border-opacity-10 border-opacity-10 rounded-2xl shadow-xl w-full max-w-lg lg:self-stretch p-8 text-center">
                     <h2 className="text-2xl w-fit m-auto px-4 pb-2 mb-8 border-b-2 border-xmf-pink">TRABAJOS</h2>
                     <ul className="flex flex-col gap-4">
-                        <li>Hmmm... un poco bacío esto no??</li>
+                        <li>Hmmm... un poco vacío esto no??</li>
                         <li>Creo que la experiencia laboral no es mi fuerte por ahora.</li>
                     </ul>
                 </section>

@@ -10,7 +10,7 @@ const Habilidades = () => {
                     <ul className="flex flex-col gap-4">
                         <li>HTML</li>
                         <li>CSS</li>
-                        <li>JavaScrip</li>
+                        <li>JavaScript</li>
                         <li>React.js + React Router</li>
                         <li>TailwindCSS</li>
                         <li>SASS & SCSS</li>
