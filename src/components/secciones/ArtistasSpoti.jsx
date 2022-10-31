@@ -18,6 +18,7 @@ const ArtistasSpoti = () => {
                     <section className="bg-xmf-dark-blue dark:bg-opacity-5 dark:bg-xmf-light-white bg-opacity-5 border border-xmf-dark-blue dark:border-xmf-light-white dark:border-opacity-10 border-opacity-10 rounded-2xl shadow-xl w-full max-w-lg lg:self-stretch p-2 text-center">
                         <iframe
                             className="rounded-xl"
+                            title={artista}
                             src={artista}
                             width="100%"
                             height="230"

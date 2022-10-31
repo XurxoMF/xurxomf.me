@@ -1,5 +1,4 @@
 import React from "react";
-import SpotifySVG from "../../assets/svg/SpotifySVG";
 
 const IntroSpoti = () => {
     return (
@@ -7,7 +6,7 @@ const IntroSpoti = () => {
             <div className="flex flex-col gap-4 text-2xl sm:text-4xl">
                 <h1>
                     <span className="font-bold text-xmf-pink">
-                        <a href="https://open.spotify.com/playlist/2cRHZ3I26ZcFjqna8it01Z?si=4e26e8085db0498d" target={"_blank"}>
+                        <a href="https://open.spotify.com/playlist/2cRHZ3I26ZcFjqna8it01Z?si=4e26e8085db0498d" target={"_blank"} rel="noreferrer">
                             TOOODA MI MÚSICA{" "}
                         </a>
                     </span>
@@ -16,7 +15,7 @@ const IntroSpoti = () => {
                 <h1>
                     EN MI
                     <span className="font-bold text-xmf-pink">
-                        <a href="https://open.spotify.com/user/prbo3g78pqe2ea0162jryhojs?si=5e11210aa71047a5" target={"_blank"}>
+                        <a href="https://open.spotify.com/user/prbo3g78pqe2ea0162jryhojs?si=5e11210aa71047a5" target={"_blank"} rel="noreferrer">
                             {" "}
                             CUENTA DE SPOTIFY
                         </a>
