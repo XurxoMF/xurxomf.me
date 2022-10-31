@@ -11,20 +11,20 @@ function Header() {
         <>
             <header className="relative w-full h-16 px-8 flex justify-between items-center">
                 <Logo />
-                <Nav tipo={"header"} />
+                <Nav tipo={"header"} open={navMob} setOpen={setNavMob} />
                 <div className="absolute right-8 flex gap-4 sm:gap-8">
                     <BotonCambioTema />
                     <button onClick={() => setNavMob(navMob ? false : true)} className="lg:hidden">
                         <MenuSVG
                             className={
-                                "w-6 h-6 hover:fill-xmf-pink dark:hover:fill-xmf-pink transition-[transform] ease-in-out duration-500" +
-                                (navMob ? " rotate-[135deg] fill-xmf-pink" : " fill-black dark:fill-white")
+                                "w-6 h-6 hover:fill-xmf-pink dark:hover:fill-xmf-pink transition-[transform] ease-in-out duration-100" +
+                                (navMob ? " rotate-[45deg] fill-xmf-pink" : " fill-black dark:fill-white")
                             }
                         />
                     </button>
                 </div>
             </header>
-            <Nav tipo={"mobile"} open={navMob} />
+            <Nav tipo={"mobile"} open={navMob} setOpen={setNavMob} />
         </>
     );
 }

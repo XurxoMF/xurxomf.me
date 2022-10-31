@@ -15,7 +15,7 @@ const Footer = () => {
 
     return (
         <footer className="p-8 flex flex-col items-center gap-8 text-center">
-            <div className="flex flex-col gap-8 lg:gap-0 lg:w-full lg:flex-row lg:justify-evenly lg:border-y border-xmf-pink py-8">
+            <div className="flex flex-col gap-8 lg:gap-0 lg:w-full lg:flex-row lg:justify-evenly">
                 <section>
                     <p className="text-xl font-bold border-b-2 border-xmf-pink">Contáctame</p>
                     <CopyToClipboard

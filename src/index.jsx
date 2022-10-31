@@ -4,23 +4,19 @@ import { createHashRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 import { ThemeProvider } from "./context/ThemeContext";
 import Root from "./routes/Root";
+import Error404 from "./Error404";
 import Bienvenida from "./routes/Bienvenida";
-import Portfolio from "./routes/Portfolio";
 import Spotify from "./routes/Spotify";
 
 const router = createHashRouter([
     {
         path: "/",
         element: <Root />,
-        //errorElement: <Error404 />,
+        errorElement: <Error404 />,
         children: [
             {
                 index: true,
                 element: <Bienvenida />,
-            },
-            {
-                path: "portfolio/",
-                element: <Portfolio />,
             },
             {
                 path: "spotify/",

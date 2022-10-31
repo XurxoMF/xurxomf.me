@@ -1,10 +1,17 @@
 import React from "react";
+import IntroSpoti from "../components/secciones/IntroSpoti";
+import ArtistasSpoti from "../components/secciones/ArtistasSpoti";
+import EstadosAnimoSpoti from "../components/secciones/EstadosAnimoSpoti";
+import GeneroTipoSpoti from "../components/secciones/GeneroTipoSpoti";
 
 const Spotify = () => {
     return (
-        <div className="bg-green-600 w-full h-full">
-            <p>SPOTIFY</p>
-        </div>
+        <>
+            <IntroSpoti />
+            <ArtistasSpoti />
+            <EstadosAnimoSpoti />
+            <GeneroTipoSpoti />
+        </>
     );
 };
 

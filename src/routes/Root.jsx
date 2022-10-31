@@ -4,10 +4,10 @@ import Footer from "../components/footer/Footer";
 
 function Root() {
     return (
-        <div className="w-full overflow-x-hidden bg-xmf-light-white dark:bg-xmf-dark-blue text-black dark:text-white">
+        <div className="w-full overflow-x-hidden bg-xmf-light-white dark:bg-xmf-dark-blue text-black dark:text-white text-lg font-xmf-font">
             <div className="relative m-auto w-full min-h-screen max-w-screen-xl">
                 <Header />
-                <main className="w-full min-h-[calc(100vh-4rem)] px-8">
+                <main className="w-full min-h-[calc(100vh-4rem)] px-8 mb-8">
                     <Outlet />
                 </main>
                 <Footer />
