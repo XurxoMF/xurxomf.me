@@ -2,7 +2,7 @@ import React from "react";
 
 const IntroSpoti = () => {
     return (
-        <section className="w-full h-[calc(100vh-4rem)] flex flex-col justify-center gap-10 sm:gap-20 pb-16">
+        <section className="w-full min-h-[calc(100vh-4rem)] flex flex-col justify-center gap-10 sm:gap-20 pb-16">
             <div className="flex flex-col gap-4 text-2xl sm:text-4xl">
                 <h1>
                     <span className="font-bold text-xmf-pink">
