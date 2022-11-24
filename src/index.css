@@ -30,3 +30,7 @@
         background-color: #ff75a7;
     }
 }
+
+#fondo {
+    background-image: url("./assets/gif/VaporwaveBG.gif");
+}
