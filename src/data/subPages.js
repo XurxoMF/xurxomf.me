@@ -1,6 +1,6 @@
 export const paginas = [
     {
-        name: "SPOTIFY",
-        to: "spotify/",
+        name: "YOUTUBE",
+        to: "youtubemusic/",
     },
 ];

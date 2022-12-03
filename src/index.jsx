@@ -6,7 +6,7 @@ import { ThemeProvider } from "./context/ThemeContext";
 import Root from "./routes/Root";
 import Error404 from "./Error404";
 import Bienvenida from "./routes/Bienvenida";
-import Spotify from "./routes/Spotify";
+import YTM from "./routes/YTM";
 
 const router = createHashRouter([
     {
@@ -19,8 +19,8 @@ const router = createHashRouter([
                 element: <Bienvenida />,
             },
             {
-                path: "spotify/",
-                element: <Spotify />,
+                path: "youtubemusic/",
+                element: <YTM />,
             },
         ],
     },
